@@ -1,3 +1,2 @@
 [containers]
-jenk-cont ansible_host=172.27.0.2 ansible_user=jenkins
-
+jenk-cont ansible_host=172.27.0.2 ansible_user=amira
