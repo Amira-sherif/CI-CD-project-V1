@@ -5,8 +5,8 @@
   remote_user: root
   tasks:
 
-   - name: copy file to remote server
-     shell: scp -r /var/lib/jenkins/workspace/ansible-pipe/* root@18.212.149.45:~/project
+   # - name: copy file to remote server
+   #   shell: scp -r /var/lib/jenkins/workspace/ansible-pipe/* root@18.212.149.45:~/project
 
    - name: Build Docker image
      docker_image:
